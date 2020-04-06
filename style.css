@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #0015ff;
+}
+
+.search-box{position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffc500;
+    padding: 14px;
+    border-radius: 50px;
+    transition: 0.25s;
+}
+
+.search-box:hover > .search-text{
+    width: 240px;
+    padding: 0 6px;
+}
+
+.search-btn{
+    background-color: #ffc500;
+    border-radius: 50%;
+}
+
+.search-text{
+    background:none;
+    border: 0;
+    line-height: 14px;
+    float: left;
+    outline: none;
+    width: 0;
+    transition: 0.25s;
+    color: #0015ff;
+    font-size: 16px;
+}
+
